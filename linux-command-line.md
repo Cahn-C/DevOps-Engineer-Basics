@@ -18,3 +18,5 @@ Check which shell you are on
 ```
 echo $SHELL
 ```
+The `echo` command prints the results on the screen
+The `$` symbol helps you specify an enviroment variable
