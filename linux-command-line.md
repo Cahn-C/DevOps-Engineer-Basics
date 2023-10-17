@@ -150,6 +150,8 @@ The user is still a regular user, but have root privileges
 - Install a specific version of the package <br>
   ```yum install ansible-2.4.2.0```
 
+<br>
+
 ### YUM
 
 YUM installs all of the dependent packages for a certain service or software
@@ -159,6 +161,8 @@ YUM installs all of the dependent packages for a certain service or software
 
 - Information about the repository <br>
   ```/etc/yum.repos.d```
+
+<br>
 
 ### YUM Repos
 - To see a list of all repositories available on a system <br>
@@ -170,6 +174,7 @@ YUM installs all of the dependent packages for a certain service or software
 - View the url of the location where all packages are stored <br>
   ```cat /etc/yum.repos.d/CentOS-Base.repo```
 
+<br>
 
 ### Services
 - Start a service in this case it will be HTTPD - Old Method <br>
