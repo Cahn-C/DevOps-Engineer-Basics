@@ -91,3 +91,13 @@ The `$` symbol helps you specify an enviroment variable
 
 - If you are accessing one system from another system using ssh, and you want to log into the other system using a different user <br>
   ```ssh chaanyah@192.168.1.2```
+
+<br>
+
+### Root User
+
+```chaanyah``` is a regular user, so when this user trys to run the following command ```ls /root``` he will get a Permission denied message.
+
+In order for user ```chaanyah``` to have access like root user, such installing and configuring software and services or viewing certain paths i.e the root directory, the root user will need to grant them sudo privileges by making an entry into the ```/etc/sudoers``` file
+
+The user is still a regular user, but have root privileges
