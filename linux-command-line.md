@@ -200,6 +200,9 @@ Example: You have a python program which is a simple web server that is develope
 Run this server with the python interpreter along with the code <br>
 ```/usr/bin/python3 /opt/code/my_app.py```
 
+Call that server
+```curl http://localhost:5000```
+
 The systemd services will allow the application to automatically start when the system boots up, it will also automatically restart when the system crashes <br>
 
 Location of the unit files: <br>
