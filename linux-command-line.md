@@ -28,22 +28,22 @@ The `$` symbol helps you specify an enviroment variable
 
 
 ### Basic Commands
-- echo: Print on screen ====>
+- echo: Print on screen <br>
   ```echo Hi```
 
-- ls: List files and folders or directories 
+- ls: List files and folders or directories <br>
   ```ls```
 
-- cd: Change directory, navigates to other directories in the system 
+- cd: Change directory, navigates to other directories in the system <br>
   ```cd my_dir1```
 
-- pwd: Present Working Directory, prints the current directory that you are on 
+- pwd: Present Working Directory, prints the current directory that you are on <br>
   ```pwd```
 
-- mkdir: Make Directory, creates a directory 
+- mkdir: Make Directory, creates a directory <br>
   ```mkdir new_directory```
 
-- Multiple commands, be sure to seperate them with a semicolon ====> ```;```
+- Multiple commands, be sure to seperate them with a semicolon  ```;``` <br>
   ```cd new_directory; mkdir www; pwd:```
 
 
@@ -77,3 +77,17 @@ The `$` symbol helps you specify an enviroment variable
 
 - Remove a file 
   ```rm new_file.txt```
+
+
+### User Accounts
+- To know which user you are <br>
+```whoami```
+
+- Find information about the user <br>
+  ```id```
+
+- Switch from one user to another, this will prompt the user's password <br>
+  ```su chaanyah```
+
+- If you are accessing one system from another system using ssh, and you want to log into the other system using a different user <br>
+  ```ssh chaanyah@192.168.1.2```
