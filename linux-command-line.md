@@ -56,7 +56,7 @@ The `$` symbol helps you specify an enviroment variable
 - Remove Directory <br>
   ```rm -r /tmp/mu_dir```
 
-- Cop Directory <br>
+- Copy Directory <br>
   ```cp -r my_dir /tmp/asia/india/bangalore```
 
 <br>
