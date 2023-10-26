@@ -46,6 +46,8 @@ The `$` symbol helps you specify an enviroment variable
 - Multiple commands, be sure to seperate them with a semicolon  ```;``` <br>
   ```cd new_directory; mkdir www; pwd:```
 
+<br>
+
 
 ### Commands - Directories
 - Make Directory Hierarchy <br>
@@ -57,6 +59,8 @@ The `$` symbol helps you specify an enviroment variable
 - Cop Directory <br>
   ```cp -r my_dir /tmp/asia/india/bangalore```
 
+<br>
+  
 
 ### Commands - Files
 - Create a new file (no contents) <br>
