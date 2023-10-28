@@ -145,7 +145,7 @@ Once added onto the ```/etc/sudoers``` file, use the ```sudo``` prefix to gain a
 - Query a datanase and get details about the installed package <br>
   ```rpm -q telnet.rpm```
 
-- Install a Package
+- Install a Package <br>
   ```yum install ansible``` 
 
 - View a list of installed or available packages, provides the package name and version <br>
