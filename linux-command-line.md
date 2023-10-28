@@ -83,6 +83,7 @@ The `$` symbol helps you specify an enviroment variable
   ```rm new_file.txt```
 
 <br>
+<hr>
 
 ### User Accounts
 - To know which user you are <br>
