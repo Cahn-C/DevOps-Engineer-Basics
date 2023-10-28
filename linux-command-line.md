@@ -109,6 +109,13 @@ In order for user ```chaanyah``` to have access like root user, such installing 
 The user is still a regular user, but have root privileges
 
 Once added onto the ```/etc/sudoers``` file, use the ```sudo``` prefix to gain access to sudo privileges. 
+Example of sudo prefix with a command <br>
+
+- ```sudo ls /root```
+- ```sudo ls /etc/sudoers```
+- ```sudo cat > /etc/bin/file.txt```
+
+Once the command is in the process of executing the command, the user will be asked for their password, after entering the password the command will be executed.
 
 <br>
 
