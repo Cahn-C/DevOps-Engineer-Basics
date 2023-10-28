@@ -108,6 +108,8 @@ In order for user ```chaanyah``` to have access like root user, such installing 
 
 The user is still a regular user, but have root privileges
 
+Once added onto the ```/etc/sudoers``` file, use the ```sudo``` prefix to gain access to sudo privileges. 
+
 <br>
 
 ### Download Files
