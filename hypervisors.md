@@ -19,12 +19,15 @@
     - These hypervisors are used in enterprises and production environments where you need to create and manage large number of virtual machines
     - Have high resource requirements
 
+<br>
 
 ### Type 2
 - Oracle Virtual Box
 - VMWare Workstation
     - Hypervisors that run on an existing operating system
     - Allows you to easily get started with virtual machines on your laptops without having to install any other operating system or re-image your laptop
+
+<br>
 
 Host OS - Main operating system on our laptop
 Guest OS - VMs that are created on the hypervisors which are on the operating system.
