@@ -31,5 +31,3 @@
 
 Host OS - Main operating system on our laptop. <br>
 Guest OS - VMs that are created on the hypervisors which are on the operating system.
-
-
