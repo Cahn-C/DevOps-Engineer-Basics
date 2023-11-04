@@ -23,7 +23,7 @@
 
 ### Type 2
 - Oracle Virtual Box
-- VMWare Workstation
+- VMware Workstation
     - Hypervisors that run on an existing operating system.
     - Allows you to easily get started with virtual machines on your laptops without having to install any other operating system or re-image your laptop.
 
