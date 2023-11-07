@@ -63,13 +63,19 @@ The `$` symbol helps you specify an enviroment variable
 
 ### Commands - Directories
 - Make Directory Hierarchy <br>
-  ```mkdir -p /tmp/asia/india/bangalore```
+  ```
+  mkdir -p /tmp/asia/india/bangalore
+  ```
 
 - Remove Directory <br>
-  ```rm -r /tmp/mu_dir```
+  ```
+  rm -r /tmp/mu_dir
+  ```
 
 - Copy Directory <br>
-  ```cp -r my_dir /tmp/asia/india/bangalore```
+  ```
+  cp -r my_dir /tmp/asia/india/bangalore
+  ```
 
 <br>
   
