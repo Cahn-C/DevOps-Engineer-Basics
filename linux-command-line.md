@@ -203,28 +203,44 @@ Once the command is in the process of executing the command, the user will be as
 ### RPM (Red Hat Package Manager)
 
 - Install a package <br>
-  ```rmp -i telnet.rpm```
+  ```
+  rmp -i telnet.rpm
+  ```
 
 - Uninstall a package <br>
-  ```rmp -e telnet.rpm```
+  ```
+  rmp -e telnet.rpm
+  ```
 
 - Query a datanase and get details about the installed package <br>
-  ```rpm -q telnet.rpm```
+  ```
+  rpm -q telnet.rpm
+  ```
 
 - Install a Package <br>
-  ```yum install ansible``` 
+  ```
+  yum install ansible
+  ``` 
 
 - View a list of installed or available packages, provides the package name and version <br>
-  ```yum list ansible```
+  ```
+  yum list ansible
+  ```
 
 - Remove an installed package
-  ```yum remove ansible```
+  ```
+  yum remove ansible
+  ```
 
 - List all available lists of a package that are duplicates
-  ```yum --showduplicates l```
+  ```
+  yum --showduplicates l
+  ```
 
 - Install a specific version of the package <br>
-  ```yum install ansible-2.4.2.0```
+  ```
+  yum install ansible-2.4.2.0
+  ```
 
 <br>
 
