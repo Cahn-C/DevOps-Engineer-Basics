@@ -329,7 +329,7 @@ Location of the unit files: <br>
 ```
 
 
-- This command lets systemd know that there is a new service configured <br>
+- This command lets systemd know that there is a new service configured 
   ```
   systemctl daemon-reload
   ```
