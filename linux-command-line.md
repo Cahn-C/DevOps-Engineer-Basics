@@ -76,23 +76,40 @@ The `$` symbol helps you specify an enviroment variable
 
 ### Commands - Files
 - Create a new file (no contents) <br>
-  ```touch new_file.txt```
+  ```
+  touch new_file.txt
+  ```
 
 - Add contents to a file <br>
-  ```cat > new_file.txt```
+  ```
+  cat > new_file.txt
+  ```
 
 - View contents of a file <br>
-  ```cat new_file.txt```
+  ```
+  cat new_file.txt
+  ```
 
 - Copy a file <br>
-  ```cp new_file.txt copy_file.txt```
+  ```
+  cp new_file.txt copy_file.txt
+  ```
 
 - Move and rename a file <br>
-  ```mv /etc/new_file.txt /tmp/``` <br>
-  ```mv /etc/new_file.txt /etc/new_sample_file.txt```
+  ```
+  mv /etc/new_file.txt /tmp/
+  ```
+
+   <br>
+   
+  ```
+  mv /etc/new_file.txt /etc/new_sample_file.txt
+  ```
 
 - Remove a file <br>
-  ```rm new_file.txt```
+  ```
+  rm new_file.txt
+  ```
 
 <br>
 <hr>
