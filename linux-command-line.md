@@ -258,48 +258,74 @@ YUM installs all of the dependent packages for a certain service or software
 
 ### YUM Repos
 - To see a list of all repositories available on a system <br>
-  ```yum repolist```
+  ```
+  yum repolist
+  ```
 
 - Shows the files where these repositories are configured <br>
-  ```ls /etc/yum.repos.d/```
+  ```
+  ls /etc/yum.repos.d/
+  ```
 
 - View the url of the location where all packages are stored <br>
-  ```cat /etc/yum.repos.d/CentOS-Base.repo```
+  ```
+  cat /etc/yum.repos.d/CentOS-Base.repo
+  ```
 
 <br>
 
 ### Services
 - Start a service in this case it will be HTTPD - Old Method <br>
-  ```service HTTPD start```
+  ```
+  service HTTPD start
+  ```
   
 - Start a service in this case it will be HTTPD - New Method (system cuttle command) <br>
-  ```systemctl start httpd```
+  ```
+  systemctl start httpd
+  ```
 
 - Stop a running serive <br>
-  ```systemctl stop httpd```
+  ```
+  systemctl stop httpd
+  ```
 
 - Check the status of a service <br>
-  ```systemctl status httpd```
+  ```
+  systemctl status httpd
+  ```
 
 - Configure a service to start automatically when the system boots up <br>
-  ```systemctl enable httpd```
+  ```
+  systemctl enable httpd
+  ```
 
 - Disable a service at boot up <br>
-  ```systemctl disable httpd```
+  ```
+  systemctl disable httpd
+  ```
 
 Example: You have a python program which is a simple web server that is developed in python, and the code is available at ```/opt/code/my_app.py``` run this server with the python interpreter ```/usr/bin/python3```, once it is running you can call the local host for port 5000 ```curl http://localhost:5000``` in this case it will return "Hello World" which is the response of the web server <br>
 
 Run this server with the python interpreter along with the code <br>
-```/usr/bin/python3 /opt/code/my_app.py```
+```
+/usr/bin/python3 /opt/code/my_app.py
+```
 
 Call that server
-```curl http://localhost:5000```
+```
+curl http://localhost:5000
+```
 
 The systemd services will allow the application to automatically start when the system boots up, it will also automatically restart when the system crashes <br>
 
 Location of the unit files: <br>
-```/etc/systemd/system```
+```
+/etc/systemd/system
+```
 
 
 - This command lets systemd know that there is a new service configured <br>
-  ```systemctl daemon-reload```
+  ```
+  systemctl daemon-reload
+  ```
