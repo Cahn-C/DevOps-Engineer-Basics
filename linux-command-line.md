@@ -29,7 +29,9 @@ The `$` symbol helps you specify an enviroment variable
 
 ### Basic Commands
 - echo: Print on screen <br>
-  ```echo Hi```
+  ```
+  echo Hi
+  ```
 
 - ls: List files and folders or directories <br>
   ```ls```
