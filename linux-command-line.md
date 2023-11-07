@@ -122,9 +122,9 @@ The `$` symbol helps you specify an enviroment variable
 
 ### User Accounts
 - To know which user you are <br>
-```
-whoami
-```
+  ```
+  whoami
+  ```
 
 - Find information about the user <br>
   ```
