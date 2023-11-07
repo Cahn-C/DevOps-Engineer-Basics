@@ -116,16 +116,24 @@ The `$` symbol helps you specify an enviroment variable
 
 ### User Accounts
 - To know which user you are <br>
-```whoami```
+```
+whoami
+```
 
 - Find information about the user <br>
-  ```id```
+  ```
+  id
+  ```
 
 - Switch from one user to another, this will prompt the user's password <br>
-  ```su chaanyah```
+  ```
+  su chaanyah
+  ```
 
 - If you are accessing one system from another system using ssh, and you want to log into the other system using a different user <br>
-  ```ssh chaanyah@192.168.1.2```
+  ```
+  ssh chaanyah@192.168.1.2
+  ```
 
 <br>
 
