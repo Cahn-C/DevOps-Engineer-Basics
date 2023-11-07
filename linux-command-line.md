@@ -148,9 +148,15 @@ The user is still a regular user, but have root privileges
 Once added onto the ```/etc/sudoers``` file, use the ```sudo``` prefix to gain access to sudo privileges. 
 Example of sudo prefix with a command <br>
 
-- ```sudo ls /root```
-- ```sudo ls /etc/sudoers```
-- ```sudo cat > /etc/bin/file.txt```
+- ```
+  sudo ls /root
+  ```
+- ```
+  sudo ls /etc/sudoers
+  ```
+- ```
+  sudo cat > /etc/bin/file.txt
+  ```
 
 Once the command is in the process of executing the command, the user will be asked for their password, after entering the password the command will be executed.
 
@@ -158,20 +164,30 @@ Once the command is in the process of executing the command, the user will be as
 
 ### Download Files
 - The curl command along with the url of the file will download the file, and ```-O``` will save the result of the file, otherwise it will just print the file on screen <br>
-  ```curl http://www.some-site.com/some-file.txt -O```
+  ```
+  curl http://www.some-site.com/some-file.txt -O
+  ```
 
 - Another option is the wget command, -O to save the result of the file, then specify the name of the file that you want it to store locally as <br>
-  ```wget http://www.some-site.com/some-file.txt -O some-file.txt```
+  ```
+  wget http://www.some-site.com/some-file.txt -O some-file.txt
+  ```
 
 <br>
 
 ### Check OS Version
 - Inspect the release files to know which version the OS that you are on <br>
-  ```/etc/*relesase*``` <br>
+  ```
+  /etc/*relesase*
+  ```
+   <br>
+
   The release files may be named differently so use the asterisk wild card ```*```
 
 - To check the details of the OS <br>
-  ```cat /etc/*release*```
+  ```
+  cat /etc/*release*
+  ```
 
 <br>
 
