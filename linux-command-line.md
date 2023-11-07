@@ -34,19 +34,29 @@ The `$` symbol helps you specify an enviroment variable
   ```
 
 - ls: List files and folders or directories <br>
-  ```ls```
+  ```
+  ls
+  ```
 
 - cd: Change directory, navigates to other directories in the system <br>
-  ```cd my_dir1```
+  ```
+  cd my_dir1
+  ```
 
 - pwd: Present Working Directory, prints the current directory that you are on <br>
-  ```pwd```
+  ```
+  pwd
+  ```
 
 - mkdir: Make Directory, creates a directory <br>
-  ```mkdir new_directory```
+  ```
+  mkdir new_directory
+  ```
 
 - Multiple commands, be sure to seperate them with a semicolon  ```;``` <br>
-  ```cd new_directory; mkdir www; pwd:```
+  ```
+  cd new_directory; mkdir www; pwd:
+  ```
 
 <br>
 
