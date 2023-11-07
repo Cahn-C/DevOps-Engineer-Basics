@@ -249,10 +249,14 @@ Once the command is in the process of executing the command, the user will be as
 YUM installs all of the dependent packages for a certain service or software
 
 - Install a package <br>
-  ```yum install ansible```
+  ```
+  yum install ansible
+  ```
 
 - Information about the repository <br>
-  ```/etc/yum.repos.d```
+  ```
+  /etc/yum.repos.d
+  ```
 
 <br>
 
