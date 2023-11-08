@@ -1,0 +1,36 @@
+## Commands
+
+List and modify interfaces on the host
+```
+ip link
+```
+
+To see the ip addresses assigned to a specific interface
+```
+ip addr
+```
+
+Used to set ip addresses on the interfaces
+```
+ip addr add 192.168.1.10/24 dev eth0
+```
+
+- Note: Changes made using these commands are only valid until a restart, If you want to persist these changes, you must set them in the /etc/network/interfaces file.
+
+Used to view the routing table
+```
+ip route
+```
+```
+route
+```
+
+Used to add entries into the routing table
+```
+ip route add 192.168.1.0/24 via 192.168.2.1
+```
+
+Check if ip forwarding is enabled on a host if you are working with a house that is configured as a router.
+```
+cat /proc/sys/net/ipv4/ip_forward
+```
