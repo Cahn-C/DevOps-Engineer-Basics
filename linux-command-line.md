@@ -212,7 +212,7 @@ Once the command is in the process of executing the command, the user will be as
   rmp -e telnet.rpm
   ```
 
-- Query a datanase and get details about the installed package <br>
+- Query a database and get details about the installed package <br>
   ```
   rpm -q telnet.rpm
   ```
