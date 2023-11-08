@@ -233,7 +233,7 @@ YUM installs all of the dependent packages for a certain service or software
   yum install ansible-2.4.2.0
   ```
 
-  - View a list of installed or available packages, provides the package name and version <br>
+- View a list of installed or available packages, provides the package name and version <br>
   ```
   yum list ansible
   ```
@@ -243,7 +243,7 @@ YUM installs all of the dependent packages for a certain service or software
   /etc/yum.repos.d
   ```
 
-  - Remove an installed package
+- Remove an installed package
   ```
   yum remove ansible
   ```
