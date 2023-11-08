@@ -217,31 +217,6 @@ Once the command is in the process of executing the command, the user will be as
   rpm -q telnet.rpm
   ```
 
-- Install a Package <br>
-  ```
-  yum install ansible
-  ``` 
-
-- View a list of installed or available packages, provides the package name and version <br>
-  ```
-  yum list ansible
-  ```
-
-- Remove an installed package
-  ```
-  yum remove ansible
-  ```
-
-- List all available lists of a package that are duplicates
-  ```
-  yum --showduplicates l
-  ```
-
-- Install a specific version of the package <br>
-  ```
-  yum install ansible-2.4.2.0
-  ```
-
 <br>
 
 ### YUM
@@ -253,9 +228,24 @@ YUM installs all of the dependent packages for a certain service or software
   yum install ansible
   ```
 
+- Install a specific version of the package <br>
+  ```
+  yum install ansible-2.4.2.0
+  ```
+
+  - View a list of installed or available packages, provides the package name and version <br>
+  ```
+  yum list ansible
+  ```
+
 - Information about the repository <br>
   ```
   /etc/yum.repos.d
+  ```
+
+  - Remove an installed package
+  ```
+  yum remove ansible
   ```
 
 <br>
@@ -275,7 +265,12 @@ YUM installs all of the dependent packages for a certain service or software
   ```
   cat /etc/yum.repos.d/CentOS-Base.repo
   ```
-
+  
+- List all available lists of a package that are duplicates
+  ```
+  yum --showduplicates l
+  ```
+  
 <br>
 
 ### Services
