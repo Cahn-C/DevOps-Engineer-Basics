@@ -1,4 +1,4 @@
-## Commands
+## Switching and Routing
 
 List and modify interfaces on the host
 ```
