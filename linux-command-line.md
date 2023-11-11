@@ -118,6 +118,17 @@ The `$` symbol helps you specify an enviroment variable
   ```
 
 <br>
+
+## Command Types
+Internal or Built-in Commands
+echo, cd, pwd, set, export, mkdir etc
+
+<br>
+
+External Commands
+mv, date, uptime, cp etc
+
+<br>
 <hr>
 
 ### User Accounts
