@@ -86,3 +86,21 @@ The lscpu command displays information about the CPU architecture
 lscpu
 ```
 
+The lsmem command can be used to list the available memory in the system
+```
+lsmem --summary
+```
+
+The free command shows the total versus used memory in the system <br>
+Use the -m flag to display the result in MB <br>
+Use the -k flag to display the result in KB <br>
+Use the -g flag to display the result in GB
+```
+free -m
+```
+```
+free -k
+```
+```
+free -g
+```
