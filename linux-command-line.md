@@ -120,7 +120,7 @@ The `$` symbol helps you specify an enviroment variable
 <br>
 
 ## Command Types
-Internal or Built-in Commands <nr>
+Internal or Built-in Commands <br>
 echo, cd, pwd, set, export, mkdir etc
 
 <br>
