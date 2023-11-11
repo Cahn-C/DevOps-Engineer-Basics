@@ -29,3 +29,8 @@ Result:
 ```
 4.15.0-72-generic
 ```
+- 4 = Kernal Version
+- 15 = Major Version
+- 0 = Minor Version
+- 72 = Patch Release
+- Generic = Distro Specific Info
