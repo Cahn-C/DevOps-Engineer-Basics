@@ -9,3 +9,23 @@ The Kernal is responsible for 4 major tasks
 - Process Management: Determines which processes can use the CPU when, and for how long.
 - Device Drivers: Act as a mediator or interpreter between the hardware and processes.
 - System calls and Security: Receives requests for service from the processes.
+
+<br>
+
+## Kernal Versions
+Displays information ablut the Kernal
+```
+uname
+```
+
+Use the -r or -a flag to print the Kernal version
+```
+uname -a
+```
+```
+uname -r
+```
+Result:
+```
+4.15.0-72-generic
+```
