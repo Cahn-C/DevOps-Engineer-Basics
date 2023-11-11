@@ -34,3 +34,55 @@ Result:
 - 0 = Minor Version
 - 72 = Patch Release
 - Generic = Distro Specific Info
+
+
+## Kernal And User Space
+- User Space
+  - Application/Programs
+
+- Kernal Space
+  - Kernal
+  - Device Drivers
+
+
+## Working with Hardware
+Tool used to display messages from an area of the kernal called the ring buffer
+```
+dmesg
+```
+
+The udevadm utility is a management tool for udev <br>
+The udevadm info command queries the udev database for device information
+```
+udevadm info --query=path --name=/dev/sda5
+```
+
+The udevadm monitor command listens to the kernal uevents
+```
+udevadm monitor
+```
+
+The lspic command stands for list PCI. <br>
+This command is used to display information ablut all PCI devices that are configured in the system. <br>
+
+Examples of PCI devices:
+- ethernet cards
+- Raid Controllers
+- Video Cards
+- Wireless adapters that directly attach to PCI slots in the motherboard of the computer
+
+PCI is an abbreviation for peripheral component interconnect.
+```
+lspci
+```
+
+The lsblk command lists information about block devices
+```
+lsblk
+```
+
+The lscpu command displays information about the CPU architecture
+```
+lscpu
+```
+
