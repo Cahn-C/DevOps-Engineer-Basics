@@ -104,3 +104,9 @@ free -k
 ```
 free -g
 ```
+
+The lshw command is a toll to extract detailed information on the entire hardware configuration of the machine <br>
+It can report exact memory configuration, firmware version, mainboard configuration, CPU version and speed, cache configuration, bus speed etc
+```
+lshw
+```
