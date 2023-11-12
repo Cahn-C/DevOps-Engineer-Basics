@@ -1,0 +1,36 @@
+## Linux Boot Sequence Overview
+The boot process can be broken down into 4 stages
+- Stage 1: BIOS POST
+- Stage 2: Boot Loader or GRUB2
+- Stage 3: Kernal Initialization
+- Stage 4: Service Initialization using sytemd or the INIT process
+
+
+### Quick note on how to initiate a Linux Boot Process
+
+Note: This can be achieved in one of two ways. <br>
+
+The first method is to start a Linux device, which is in a halted or stopped state. <br>
+The second method is to reboot or reset the running system.
+
+- BIOS POST: Has very little to do with LInux itself
+  - POST stands for power-on self-test
+  - In this stage BIOS runs a POST to ensure that the hardware components attached to the device are functiong correctly.
+  - If POST fails the computer may not be operable, and the system will not proceed to the second stage of the boot process.
+- Boot Loader or GRUB2: Provides the user with the boot screen often with multiple options to boot into, such as Microsoft Windows OS or an Ubuntu 18.04 OS in an example of a dual boot system.
+  - Once the selection is made in the boot screen, the boot loader loads the kernal into memory, supplies it with some permeters, and hands over the control to the kernal.
+  - A popular example of the boot loader is the GRUB2, which stands for Grand Unified Bootloader version 2
+  - GRUB2 is the primary boot loader for most current Linux distributions.
+- Kernal Initialization: After the kernal is loaded into the memory, it is usually decompressed, this is done as the kernals are generally in a compressed state to save space.
+  - The kernal is then loaded into the memory and starts executing, during this space the kernal carries out tasks such as initializing hardware and memory management tasks among other things.
+  - Once it is completely operational, the kernal looks for an init process to run, which sets up the user space and the processes needed for the user environment.
+- INIT Process: In most current day Linux distributions, the INIT function then calls the systemd daemon.
+  - The systemd is responsible for bringing the Linux host to a usable state.
+  - Systemd is also responsible for mounting file systems, starting and managing system services.
+ 
+<br>
+
+To check the init system used
+```
+ls -l /sbin/init
+```
