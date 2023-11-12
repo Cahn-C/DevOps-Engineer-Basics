@@ -138,3 +138,69 @@ file insync1000.sock
 ```
 file /home/michael/bash-script
 ```
+
+
+## Filesystem Hierarchy
+Contains the home directories for all users except for the root user
+```
+/home
+```
+
+<br>
+
+The root user's home directory is located at /root
+```
+/root
+```
+
+<br>
+
+
+If you want to install any third-party programs place them in the following file system
+```
+/opt
+```
+
+<br>
+
+
+Used to mount file systems temporarily in the system
+```
+/mnt
+```
+
+
+<br>
+
+
+Used to store temporary data
+```
+/tmp
+```
+
+
+<br>
+
+
+All external media is mounted under the following file system
+```
+/media
+```
+
+
+<br>
+
+
+df or disk file system prints out details about all of the mounted file systems.
+```
+df -hP
+```
+
+
+<br>
+
+
+Contains the special block and character device files.
+```
+/dev
+```
