@@ -122,6 +122,7 @@ Special Files can be subcategorized into five other file types
 - Sockets Files: Enables the communication between two processes.
 - Named Pips: Allows connecting one process as an input to another.
 
+<br>
 
 ## Making good use of the File Types In Linux
 Running the command file with the file or directory name displays the file type
