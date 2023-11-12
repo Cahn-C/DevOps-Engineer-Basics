@@ -39,7 +39,7 @@ ls -l /sbin/init
 ## System Targets
 
 To see the operation mode set in the system <br>
-Dave' System:
+Dave's System:
 ```
 runlevel
 ```
@@ -48,6 +48,7 @@ Results:
 N    3
 ```
 
+<br>
 
 Bob's System:
 ```
@@ -57,6 +58,8 @@ Results:
 ```
 N    5
 ```
+
+<br>
 
 The operation mode that provides the graphical interface is called the run level 5. <br>
 The operation mode that provides the non-graphical interface is called the run level 3. <br><br>
