@@ -77,7 +77,7 @@ systemctl get-default
 
 <br>
 
-The above command looks up the file located at:
+The above command looks up the file that is located at:
 ```
 ls -ltr /etc/systemd/system/default.target
 ```
