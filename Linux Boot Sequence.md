@@ -88,3 +88,52 @@ To change the default target
 ```
 systemctl set-default multi-user.target
 ```
+
+
+## File Types
+
+There are 3 types of files:
+- Regular File
+- Directory
+- Special Files
+
+Regular files are the most common type of files that contains some text, data or images.
+Examples:
+- Configurations files
+- Shell Scripts or code
+- JPG files
+
+<br>
+
+Directory is a type of file as well that stores other files and directories within.
+Example: The home directory
+```
+/home/username
+```
+
+<br>
+
+Special Files can be subcategorized into five other file types
+- Character Files: Repersents devices under the /dev file system, which allows the OS to communicate to IO devices serially.
+- Block Files: Repersents block devices also located in /dev.
+- Links: Associates two or more file names to the same set of file data, there are two types of links:
+  - Hard Links: Associates two or more file names that share the same block of data on the physical disk.
+  - Soft Links: Act as pointers to another file, deleting a symlink does not affect the data in the actual file.
+- Sockets Files: Enables the communication between two processes.
+- Named Pips: Allows connecting one process as an input to another.
+
+
+## Making good use of the File Types In Linux
+Running the command file with the file or directory name displays the file type
+```
+file /home/michael
+```
+```
+file bash-script.sh
+```
+```
+file insync1000.sock
+```
+```
+file /home/michael/bash-script
+```
