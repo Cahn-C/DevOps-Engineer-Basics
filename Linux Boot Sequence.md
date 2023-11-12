@@ -5,6 +5,7 @@ The boot process can be broken down into 4 stages
 - Stage 3: Kernal Initialization
 - Stage 4: Service Initialization using sytemd or the INIT process
 
+<br>
 
 ## Quick note on how to initiate a Linux Boot Process
 
