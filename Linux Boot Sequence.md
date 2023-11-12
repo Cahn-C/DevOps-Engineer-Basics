@@ -30,7 +30,7 @@ The second method is to reboot or reset the running system.
  
 <br>
 
-To check the init system use
+To check the init system
 ```
 ls -l /sbin/init
 ```
@@ -75,10 +75,14 @@ To see the default target
 systemctl get-default
 ```
 
+<br>
+
 The above command looks up the file located at:
 ```
 ls -ltr /etc/systemd/system/default.target
 ```
+
+<br>
 
 To change the default target
 ```
