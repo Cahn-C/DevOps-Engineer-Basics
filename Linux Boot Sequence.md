@@ -34,3 +34,28 @@ To check the init system used
 ```
 ls -l /sbin/init
 ```
+
+
+## System Targets
+
+To see the operation mode set in the system <br>
+Dave' System:
+```
+runlevel
+```
+Results:
+```
+N     3
+```
+
+
+Bob's System:
+```
+runlevel
+```
+Results:
+```
+N    5
+```
+
+
