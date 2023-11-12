@@ -70,6 +70,7 @@ During boot, the init process checks the run level, it makes sure that all progr
 
 For example, the graphical user mode requires a display manager service to run fo the GUI to work.
 
+<br>
 
 ## Viewing and Changing Systemd Target
 To see the default target
@@ -91,6 +92,7 @@ To change the default target
 systemctl set-default multi-user.target
 ```
 
+<br>
 
 ## File Types
 
@@ -141,6 +143,7 @@ file insync1000.sock
 file /home/michael/bash-script
 ```
 
+<br>
 
 ## Filesystem Hierarchy
 Contains the home directories for all users except for the root user
