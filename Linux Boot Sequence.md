@@ -45,7 +45,7 @@ runlevel
 ```
 Results:
 ```
-N     3
+N    3
 ```
 
 
