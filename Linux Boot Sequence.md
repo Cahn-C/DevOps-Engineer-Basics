@@ -64,3 +64,20 @@ The operation mode that provides the non-graphical interface is called the run l
 During boot, the init process checks the run level, it makes sure that all programs needed to get the system operational in that mode are started. <br>
 
 For example, the graphical user mode requires a display manager service to run fo the GUI to work.
+
+
+## Viewing and Changing Systemd Target
+To see the default target
+```
+systemctl get-default
+```
+
+The above command looks up the file located at:
+```
+ls -ltr /etc/systemd/system/default.target
+```
+
+To change the default target
+```
+systemctl set-default multi-user.target
+```
