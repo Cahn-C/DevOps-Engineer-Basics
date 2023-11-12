@@ -30,7 +30,7 @@ The second method is to reboot or reset the running system.
  
 <br>
 
-To check the init system used
+To check the init system use
 ```
 ls -l /sbin/init
 ```
