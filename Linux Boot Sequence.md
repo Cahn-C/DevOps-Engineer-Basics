@@ -6,7 +6,7 @@ The boot process can be broken down into 4 stages
 - Stage 4: Service Initialization using sytemd or the INIT process
 
 
-### Quick note on how to initiate a Linux Boot Process
+## Quick note on how to initiate a Linux Boot Process
 
 Note: This can be achieved in one of two ways. <br>
 
