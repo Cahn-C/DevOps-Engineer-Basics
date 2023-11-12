@@ -58,4 +58,9 @@ Results:
 N    5
 ```
 
+The operation mode that provides the graphical interface is called the run level 5. <br>
+The operation mode that provides the non-graphical interface is called the run level 3. <br><br>
 
+During boot, the init process checks the run level, it makes sure that all programs needed to get the system operational in that mode are started. <br>
+
+For example, the graphical user mode requires a display manager service to run fo the GUI to work.
