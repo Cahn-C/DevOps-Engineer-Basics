@@ -36,6 +36,7 @@ To check the init system
 ls -l /sbin/init
 ```
 
+<br>
 
 ## System Targets
 
