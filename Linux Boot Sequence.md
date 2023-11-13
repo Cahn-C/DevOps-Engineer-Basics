@@ -205,7 +205,30 @@ df -hP
 <br>
 
 
-Contains the special block and character device files.
+Contains the special block and character device files, contains files for external hard disks and devices such as mouse and keyboards.
 ```
 /dev
 ```
+
+
+<br>
+
+
+The basic programs and binaries such as the cp, mv, mkdir date commands are located in the following directory
+```
+/bin
+```
+
+
+<br>
+
+
+Used to strore most of the configuration files in Linux
+```
+/etc
+```
+
+
+<br>
+
+
