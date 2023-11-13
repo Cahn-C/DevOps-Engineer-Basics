@@ -69,4 +69,49 @@ YUM stands for Yellowdog Updater Modified
 
 <br>
 
+The reposiftory information is stored in the following file
+```
+/etc/yum.repos.d
+```
 
+<br>
+
+Install a package
+```
+yum install httpd
+```
+
+<br>
+
+Update a single package
+```
+yum update telnet
+```
+
+<br>
+
+Update all packages in the system
+```
+yum update
+```
+
+<br>
+
+Remove a package
+```
+yum remove httpd
+```
+
+<br>
+
+Shows all repos added to your system
+```
+yum repolist
+```
+
+<br>
+
+Check which package should be installed for a specific command to work
+```
+yum provides <command name>
+```
