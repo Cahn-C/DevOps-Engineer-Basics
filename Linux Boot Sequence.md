@@ -232,3 +232,27 @@ Used to strore most of the configuration files in Linux
 <br>
 
 
+Look for shared libraries to be imported into your programs
+```
+/lib
+```
+```
+/lib64
+```
+
+
+<br>
+
+
+In older systems, the following directory was used for user home directories, but in modern Linux OS, it is the location where all User Land applications and their data reside <br>
+
+Examples would be Thunderbird mail client, Mozilla Firefox and VI Test Editor.
+```
+/usr
+```
+
+
+The system writes data such as logs and cached data in the following directory
+```
+/var
+```
