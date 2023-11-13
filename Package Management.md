@@ -61,4 +61,12 @@ Verify a package
 rpm -Vf <path to file>
 ```
 
+<br>
+
+## YUM Package Manager
+
+YUM stands for Yellowdog Updater Modified
+
+<br>
+
 
