@@ -2,4 +2,9 @@
 
 dpkg - Ubuntu <br>
 apt - debian <br>
-rpm - Red Hat/CentOS
+rpm - RHEL, CentOS, Fedora
+
+
+<br>
+
+
