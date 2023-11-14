@@ -76,7 +76,7 @@ The reposiftory information is stored in the following file
 
 <br>
 
-Install a package
+Install software along with its dependencies
 ```
 yum install httpd
 ```
@@ -114,4 +114,58 @@ yum repolist
 Check which package should be installed for a specific command to work
 ```
 yum provides <command name>
+```
+
+<br>
+<br>
+
+## Working with DPKG
+
+Install or Update an existing package
+```
+dpkg -i telnet.deb
+```
+
+<br>
+
+Uninstall a package
+```
+dpkg -r telnet.deb
+```
+
+<br>
+
+List packages installed in the system along with the version number and short description
+```
+dpkg -l telnet
+```
+
+<br>
+
+Check the status of the package
+```
+dpkg -s telnet
+```
+
+<br>
+
+Display details about packages such as version number, maintainer etc
+```
+dpkg -p <path to file>
+```
+
+<br>
+
+## APT / APT-GET
+
+APT stands for advanced package managers
+
+<br>
+
+Install software along with its dependencies
+```
+apt install gimp
+```
+```
+apt-get install gimp
 ```
