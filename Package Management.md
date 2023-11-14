@@ -195,7 +195,7 @@ apt upgrade
 
 <br>
 
-Another way to update the repositories is using the vi editor tool nano
+Another way to update the repositories is using a text editor such as vim or nano
 ```
 apt edit-sources
 ```
