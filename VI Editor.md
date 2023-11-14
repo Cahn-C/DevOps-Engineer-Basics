@@ -1,0 +1,147 @@
+## Viewing File Sizes
+
+Inspect the size of the file or directory in kilobytes
+```
+du -sk test.img
+```
+
+<br>
+
+Prints the size of a file or directory in human readable format
+```
+du -sh test.img
+```
+```
+ls -lh test.img
+```
+
+<br>
+
+
+## Archiving Files
+
+Used to create an archive
+```
+tar -cf test.tar file1 file2 file 3
+```
+- -c is used to create an archive
+- -f is used to specify the name of the tar file to be created, this is followed by the files or directories to be archived
+ 
+<br>
+
+Used to see the contents of the tarball
+```
+tar -tf test.tar
+```
+
+<br>
+
+Used to extract the contents from the tarball
+```
+tar -xf test.tar
+```
+
+<br>
+
+Used to compress the tarball ro reduce its size
+```
+tar -zcf test.tar file1 file2 file3
+```
+
+<br>
+
+## Compressing
+
+Compression is the technique used to reduce the size consumed by a file or a data set
+
+<br>
+
+bzip2
+```
+bzip test.img
+```
+```
+du -sh test.img.bz2
+```
+
+Results:
+```
+4.9K    test.img.bz2
+```
+
+<br>
+
+gzip
+```
+gzip test1.img
+```
+```
+du -sh test1.img.gz
+```
+
+Results:
+```
+100K    test1.img.gz
+```
+
+<br>
+
+xz
+```
+xz test2.img
+```
+```
+du -sh test2.img.xz
+```
+
+Results:
+```
+16K    test2.img.xz
+```
+
+<br>
+
+## Uncompressing
+
+bunzip2
+```
+bunzip2 test.img.bz2
+```
+```
+du -sh test.img
+```
+
+Results:
+```
+99M    test.img
+```
+
+<br>
+
+gunzip
+```
+gunzip test1.img.gz
+```
+```
+du -sh test1.img
+```
+
+Results:
+```
+99M test1.img
+```
+
+<br>
+
+unxz
+```
+unxz test2.img.xz
+```
+```
+du -sh test2.img
+```
+
+Results:
+```
+99M    test2.img
+```
