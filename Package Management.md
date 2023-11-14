@@ -169,3 +169,35 @@ apt install gimp
 ```
 apt-get install gimp
 ```
+
+<br>
+
+Software Repository
+```
+/etc/apt/sources.list
+```
+
+<br>
+
+Refresh the repository
+```
+apt update
+```
+
+- A good time to run this would be immediately after installing the OS or after adding new sources
+
+<br>
+
+Install available upgrades of all packages currently installed on the system from the sources configured.
+```
+apt upgrade
+```
+
+<br>
+
+Another way to update the repositories is using the vi editor tool nano
+```
+apt edit-sources
+```
+
+- This will open the /etc/apt/sources.list file
