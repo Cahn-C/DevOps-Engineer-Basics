@@ -1,3 +1,3 @@
 # Linux System Administration
 
-This repository consists of the DevOps prerequisites and the basics, from learning basic lab setups, connection to VMs(Virtual Machines), navigating the Linux CLI, text editors, networking between VMs, navigating JSON or YAML files. 
+The following repository consists of the notes that I have taken throughout my career from a help desk support specialist to a systems analyst. 
