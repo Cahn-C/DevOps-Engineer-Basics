@@ -9,7 +9,7 @@ The boot process can be broken down into 4 stages
 
 ## Quick note on how to initiate a Linux Boot Process
 
-Note: This can be achieved in one of two ways. <br>
+Note: This can be achieved in one of two ways. <br><br>
 
 The first method is to start a Linux device, which is in a halted or stopped state. <br>
 The second method is to reboot or reset the running system.
