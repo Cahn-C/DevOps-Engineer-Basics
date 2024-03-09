@@ -137,6 +137,9 @@ file /home/michael
 file bash-script.sh
 ```
 ```
+file text.txt
+```
+```
 file insync1000.sock
 ```
 ```
