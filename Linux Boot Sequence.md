@@ -177,7 +177,7 @@ If you want to install any third-party programs place them in the following file
 
 <br>
 
-Used to mount file systems temporarily in the system
+Used to mount file systems temporarily in the system (e.g. NFS)
 ```
 /mnt
 ```
@@ -194,6 +194,13 @@ Used to store temporary data
 All external media is mounted under the following file system
 ```
 /media
+```
+
+<br>
+
+System daemons that start very early (e.g. systemd and udev) to store temporary runtime files like PID files
+```
+/run
 ```
 
 <br>
