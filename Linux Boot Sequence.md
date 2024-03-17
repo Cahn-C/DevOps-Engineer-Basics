@@ -87,6 +87,13 @@ ls -ltr /etc/systemd/system/default.target
 
 <br>
 
+df or disk file system prints out details about all of the mounted file systems.
+```
+df -hP
+```
+
+<br>
+
 To change the default target
 ```
 systemctl set-default multi-user.target
@@ -163,7 +170,6 @@ The root user's home directory is located at /root
 
 <br>
 
-
 If you want to install any third-party programs place them in the following file system
 ```
 /opt
@@ -171,51 +177,33 @@ If you want to install any third-party programs place them in the following file
 
 <br>
 
-
 Used to mount file systems temporarily in the system
 ```
 /mnt
 ```
 
-
 <br>
-
 
 Used to store temporary data
 ```
 /tmp
 ```
 
-
 <br>
-
 
 All external media is mounted under the following file system
 ```
 /media
 ```
 
-
 <br>
-
-
-df or disk file system prints out details about all of the mounted file systems.
-```
-df -hP
-```
-
-
-<br>
-
 
 Contains the special block and character device files, contains files for external hard disks and devices such as mouse and keyboards.
 ```
 /dev
 ```
 
-
 <br>
-
 
 The basic programs and binaries such as the cp, mv, mkdir date commands are located in the following directory
 ```
@@ -226,18 +214,14 @@ Newer version of /bin
 /usr/bin
 ```
 
-
 <br>
-
 
 Used to store most of the configuration files in Linux
 ```
 /etc
 ```
 
-
 <br>
-
 
 Look for shared libraries to be imported into your programs
 ```
@@ -247,9 +231,7 @@ Look for shared libraries to be imported into your programs
 /lib64
 ```
 
-
 <br>
-
 
 In older systems, the following directory was used for user home directories, but in modern Linux OS, it is the location where all User Land applications and their data reside <br>
 
@@ -258,8 +240,14 @@ Examples would be Thunderbird mail client, Mozilla Firefox and VI Test Editor.
 /usr
 ```
 
-
 The system writes data such as logs and cached data in the following directory
 ```
 /var
+```
+
+<br>
+
+Running processes (only exist in memory)
+```
+/proc
 ```
