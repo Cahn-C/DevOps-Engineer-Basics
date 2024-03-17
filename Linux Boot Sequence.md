@@ -226,7 +226,7 @@ The basic programs and binaries such as the cp, mv, mkdir date commands are loca
 <br>
 
 
-Used to strore most of the configuration files in Linux
+Used to store most of the configuration files in Linux
 ```
 /etc
 ```
