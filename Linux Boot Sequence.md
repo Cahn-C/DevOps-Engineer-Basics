@@ -221,6 +221,10 @@ The basic programs and binaries such as the cp, mv, mkdir date commands are loca
 ```
 /bin
 ```
+Newer version of /bin
+```
+/usr/bin
+```
 
 
 <br>
